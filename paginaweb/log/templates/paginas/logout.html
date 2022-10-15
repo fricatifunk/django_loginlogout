@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <div class="container">
+
+        <h1>has cerrado sesion satisfactoriamente</h1>
+        <h5> <a href="{% url 'login' %}">vuelve a iniciar sesion nuevamente</a></h5>
+        <h5> <a href="{% url 'home' %}">volver al home</a> </h5>
+
+
+    </div>
+    
+{% endblock %}
